@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="2.js"></script>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div class = "loginbox">
+        <form onclick="validation()">
+            <div class="login">
+                <h1 align="center">login Form</h1>
+                <div class="container">
+                    <div class="label" style="flex:1"><b>Username:</b></div>
+                    <input id="unm" type="text" placeholder="enter username" name="uname" required><br>
+                    <span id="uvalidation" style="color:red"></span>
+                    <span id="uvalidation1" style="color:green"></span><br>
+                </div>
+                <div class="container">
+                    <div class="label" style="flex:1"><b>Password:</b></div>
+                    <input id="pwd" type="password" placeholder="enter password" name="psw" required><br>
+                    <span id="pvalidation" style="color:red"></span>
+                    <span id="pvalidation1" style="color:green"></span><br>
+                </div>
+                <div class="ck">
+                    <input type="checkbox" name="remember me" id="">remember Me 
+
+                </div><br>
+                <button type="submit" name="login" value="sign">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

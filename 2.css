@@ -1,0 +1,50 @@
+body{
+    background:url("https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") ;
+}
+.login{
+    width:350px;
+    height:400px;
+    color:white;
+    top:50%;
+    left:50%;
+    right:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding:10px 50px;
+    background-color: black;
+}
+.container
+{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+}
+.loginbox input[type="text"],[type="password"]
+{
+    width:90%;
+    margin-bottom: 20px;
+    border:none;
+    border-bottom:1px solid green;
+    background:transparent;
+    outline:none;
+    height:40px;
+    color:white;
+    font-size:16px;
+}
+.loginbox button[type="submit"]
+{
+    border:none;
+    outline:none;
+    background-color:green;
+    color:white;
+    font-size:18px;
+    border-radius:20px;
+    height:40px;
+    width:100%;
+}
+.loginbox button[type="submit"]:hover{
+    cursor: pointer;
+    background-color: red;
+    color:black;
+}
